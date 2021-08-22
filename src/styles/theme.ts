@@ -5,6 +5,7 @@ export default {
   },
   border: {
     radius: '0.4rem',
+    medium: '0.8rem',
   },
   font: {
     family: "'Montserrat', sans-serif",
@@ -16,7 +17,7 @@ export default {
       xsmall: '0.875rem',
       small: '0.938rem',
       medium: '1rem',
-      large: '1.313rem',
+      large: '1.8rem',
       xlarge: '2.75rem',
       xxlarge: '3.375rem',
     },
@@ -33,7 +34,7 @@ export default {
     small: '2.4rem',
     medium: '3.33rem',
     large: '4.0rem',
-    xlarge: '8rem',
+    xlarge: '6rem',
     xxlarge: '5.6rem',
   },
   layers: {

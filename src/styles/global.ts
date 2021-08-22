@@ -39,7 +39,7 @@ const GlobalStyles: GlobalStyleComponent<
     ${({ theme }) => css`
       body {
         font-family: ${theme.font.family};
-        font-size: 16px;
+        font-size: ${theme.font.sizes.medium};
         background: ${theme.colors.white};
       }
 
