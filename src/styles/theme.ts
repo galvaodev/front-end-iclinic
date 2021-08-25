@@ -8,7 +8,7 @@ export default {
     medium: '0.8rem',
   },
   font: {
-    family: "'Montserrat', sans-serif",
+    family: 'Montserrat, sans-serif',
     light: 300,
     normal: 400,
     bold: 700,
@@ -16,7 +16,7 @@ export default {
     sizes: {
       xsmall: '0.875rem',
       small: '0.938rem',
-      medium: '1rem',
+      medium: '1.2rem',
       large: '1.8rem',
       xlarge: '2.75rem',
       xxlarge: '4.5rem',
@@ -35,7 +35,7 @@ export default {
     medium: '3.33rem',
     large: '4.0rem',
     xlarge: '6rem',
-    xxlarge: '5.6rem',
+    xxlarge: '13rem',
   },
   layers: {
     base: 10,

@@ -27,14 +27,10 @@ const GlobalStyles: GlobalStyleComponent<
   }
 
   html {
-    font-size: 62.5%;
+    font-size: 80.5%;
   }
 
-    html,
-    body,
-    #__next {
-      height: 100%;
-    }
+
 
     ${({ theme }) => css`
       body {
