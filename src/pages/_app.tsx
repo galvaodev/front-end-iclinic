@@ -15,6 +15,8 @@ function App({ Component, pageProps }: AppProps) {
       <ThemeProvider theme={theme}>
         <Head>
           <title>IClinic - Seja bem vindo</title>
+          <link rel="shortcut icon" href="/img/icon.png" />
+          <link rel="apple-touch-icon" href="/img/icon.png" />
           <link rel="minifest" href="manifest.json" />
           <meta
             name="description"

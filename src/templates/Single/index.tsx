@@ -41,12 +41,16 @@ const Single = () => {
   };
 
   useEffect(() => {
-    if (sessionStorage.getItem('single') && profile.name) {
+    if (sessionStorage.getItem('single')) {
+      const name = sessionStorage.getItem('single');
+      setProfile({
+        name: name === 'Luke Skywalker' ? 'Luke Skywalker' : 'Darth Vader',
+      });
       setTheme(profile.name === 'Luke Skywalker' ? 'luke' : 'darth');
     } else {
       Router.push('/');
     }
-  }, [profile.name, Router]);
+  }, [profile.name, Router, setProfile]);
 
   return (
     <>
