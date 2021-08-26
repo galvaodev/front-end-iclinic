@@ -99,6 +99,7 @@ const Single = () => {
           <MediaMatch lessThan="medium">
             <S.Header>
               <Button
+                onClick={hasClick}
                 color={theme === 'darth' ? 'white' : 'black'}
                 size="medium"
               >
